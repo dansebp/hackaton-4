@@ -46,7 +46,7 @@ section {
     width: 300px;
     padding: 20px;
     position: absolute;
-    left: 30px;
+    left: 50px;
     bottom: 100px;
     background-color: rgba(114, 154, 254, 0.5);
     border-radius: 8px;
@@ -148,6 +148,10 @@ section {
     width: 25%;
     float: left;
 }
+.portfolio img{
+    width: 96%;
+    margin: 0 2%;
+}
 
 /*---CLIENTES---*/
 
@@ -168,8 +172,9 @@ section {
     float: left;
 }
 .clients figure img {
-    max-height: 80px;
+    width: 96%;
     padding: 0 10px;
+    margin: 0 2%;
 }
 
 /*---CONTACTO---*/
